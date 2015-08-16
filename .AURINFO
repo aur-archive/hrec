@@ -1,0 +1,15 @@
+pkgbase = hrec
+	pkgdesc = Small console program for quick recordings using ecasound and jack
+	pkgver = 0.2
+	pkgrel = 1
+	url = https://sourceforge.net/projects/hrec/
+	arch = any
+	license = GPL3
+	depends = python2
+	depends = jack
+	depends = ecasound
+	source = https://downloads.sourceforge.net/project/hrec/hrec-0.2.tar.gz
+	options = !emptydirs
+
+pkgname = hrec
+
